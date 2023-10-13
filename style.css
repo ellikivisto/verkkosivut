@@ -1,0 +1,151 @@
+
+        
+        
+        @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Mooli&display=swap');
+        
+        body {
+            font-family: 'Inclusive Sans', sans-serif;
+            background-color: #F9F6F0;
+            margin: 20px auto;
+            padding: 20px auto;
+            border-radius: 5px;
+            flex-grow: 1;
+            flex-direction: column;
+            font-size: x-large;
+            
+            
+        }
+        #footer {
+            position:static
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            color: #6F5B3E;
+            text-align: center;
+            padding: 10px;
+        }
+        #header {
+            text-align: center;
+            background-color:white;
+            color: #6F5B3E;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        #logo {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        #kuva {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            margin-right: 20px;        
+            max-width: 100%;
+            border-radius: 80%;
+            flex: 0 0 30%;
+            
+            
+        }
+        #title {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 80px;
+            font-family: 'Mooli', sans-serif;
+
+        }
+        #navigation {
+            margin-top: 20px;
+            font-size: 30px;
+            font-family: 'Mooli', sans-serif;
+        }
+        #navigation a {
+            text-decoration: none;
+            color: #6F5B3E;
+            margin: 0 10px;
+        }
+        #content {
+            flex-grow: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+            margin: 50px auto;
+            padding: 50px auto;
+            background-color: white;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+            
+            
+        }
+        #content-container {
+            display: flex;
+            align-items: center;
+        
+        }
+        
+        
+        .section-box {
+            flex: 1;
+            padding: 20px;
+            background-color: #F9F6F0; /* Set your desired background color */
+            border: 1px solid #ccc; /* Add a border around the box */
+            margin: 10px; /* Adjust margin as needed */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the box */
+            border-radius: 5px; /* Add rounded corners to the box */
+            text-align: left; /* Align text content to the left */
+        }
+
+        #koulutus h1, #Työkokemus h2  {
+            font-size: larger;
+            font-style: oblique;
+            font-family: 'Mooli', sans-serif;
+            color: #6F5B3E;
+
+
+        }
+        #yhteystiedot h1, #content h2 {
+            font-size: 40px;
+            font-style: oblique;
+            font-family: 'Mooli', sans-serif;
+            color: #6F5B3E;
+        }
+        
+        #kuva2 {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            margin-right: 20px;        
+            max-width: 100%;
+            border-radius: 80%;
+            flex: 0 0 30%;
+        }
+        #photo-container2 {
+            flex: 1;
+        }
+        #kuva4 {
+            width: 100%;
+            height: 200px;
+            display:flex;
+            align-items: center;  
+            max-width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+            border-radius: 2%;
+            
+        }
+        #photo-container4 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+         
+        
+       
+        
+       
